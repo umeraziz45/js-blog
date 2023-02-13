@@ -1,0 +1,77 @@
+*, *::before, *::after {
+box-sizing: border-box;
+}
+
+* {
+margin: 0;
+padding: 0;
+font: inherit;
+}
+
+html {
+color-scheme: dark light;
+}
+
+body {
+min-height: 100vh;
+}
+
+img, picture, svg, video {
+display: block;
+max-width: 100%;
+}
+
+body {
+  font-family:Arial, Helvetica, sans-serif;
+  background: rgb(240, 233, 233);
+  font-size: 1.2rem;
+}
+
+/* body > * {
+  outline: solid;
+} */
+
+a:hover {
+  color: blueviolet;
+  border-bottom: 1px solid black;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 1em;
+}
+
+.nav-title {
+  font-size: 2rem;
+}
+
+.nav-list {
+  display: flex;
+  
+}
+
+.nav-link {
+  margin-right: .5em;
+}
+
+.blog-posts {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.blog-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: .5em 0;
+}
+
+.blog-body {
+  margin-bottom: .5em;
+}
