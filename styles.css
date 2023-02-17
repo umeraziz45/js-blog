@@ -27,9 +27,10 @@ body {
   font-size: 1.2rem;
 }
 
-/* body > * {
-  outline: solid;
-} */
+.wrapper {
+  max-width: 90%;
+  margin: 0 auto;
+}
 
 a:hover {
   color: blueviolet;
@@ -54,15 +55,43 @@ a {
 
 .nav-list {
   display: flex;
-  
+  align-items: flex-end;
 }
 
 .nav-link {
-  margin-right: .5em;
+  margin-right: 2em;
+}
+
+form {
+  background: lightblue;
+  padding: 1em .5em;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+  border: 0;
+}
+
+label {
+  margin: 1em 0;
+  font-weight: bold;
+}
+
+.btn {
+  border: 0;
+  padding: 0.5em 1em;
+  margin-top: 1em;
+  background: linear-gradient(to right,rgb(163, 26, 26), rgb(229, 18, 18));
+  min-width: 50%;
+  margin: 1em auto;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .blog-posts {
-  max-width: 90%;
   margin: 0 auto;
 }
 
