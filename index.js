@@ -60,5 +60,5 @@ fetch('https://apis.scrimba.com/jsonplaceholder/posts', {method: 'GET'})
     })
    }
 
-  //  forms act as one block and default action of buttons assoc with forms 
+  //  forms act as one block and default action of buttons assoc with forms is submit
   blogForm.addEventListener('submit', submit);
